@@ -1,0 +1,15 @@
+.userreg-main-thirddiv a {
+    text-decoration: none;
+    color: #F5F5F5;  
+    background-color: #034242;
+    width: 240px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    padding-top: 8px;    
+}
+.userreg-main-thirddiv a:hover{
+    background-color: black;
+    color: white;
+}

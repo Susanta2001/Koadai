@@ -1,10 +1,20 @@
 
 import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './components/Home/Home';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path:'/',
+      element: <>
+          <Home/>
+      </>
+    }
+  ])
   return (
     <>
-      This is koadai
+      <RouterProvider router={router} />
     </>
   );
 }

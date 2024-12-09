@@ -1,0 +1,13 @@
+.navbar-left{
+    gap: 12px;
+}
+.navbar-right{
+    gap: 16px !important;
+}
+.navbar-right a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar{
+    z-index: 1000;
+}
