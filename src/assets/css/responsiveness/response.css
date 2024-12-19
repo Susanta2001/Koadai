@@ -1,0 +1,128 @@
+@media (max-width: 425px) {   
+    .back-mountain-div{
+        top: 100px !important;
+    }
+    .koadaiLogo{
+        left: 0px !important;
+    }
+    .nav-bar{
+        bottom: 0px !important;
+        background-color: black;
+    }
+    .navbar-left{
+        display: none !important;
+    }
+    .navbar-right{
+        width: 100%;
+        justify-content: space-between !important;
+    }
+    .navbar-right a{
+        font-size: 20px !important;
+    }
+    #home{
+        order: 2 !important;
+    }
+    #contact{
+        order: 3 !important;
+    }
+    .aboutus-second-main p{
+            width: 100% !important;
+            padding-left: 0% !important;
+    }
+    .aboutus-button-two::after{
+        width: 18% !important;
+    }
+    .aboutus-button-two::before{
+        width: 19% !important;
+    }
+    .userreg-main-firstdiv h1{
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+    .clients-inner{
+        flex-direction: column !important;
+        gap: 12px !important;
+        align-items: center;
+    }
+    .clients-card{
+        width: 90% !important;
+    }
+    .testimonial-inner-two{
+        flex-direction: column !important;
+        gap: 12px;
+    }
+    .card-div{
+        width: 100% !important;
+    }
+    .logo-div{
+        display: none !important;
+    }
+    .footer-card:first-child, .footer-card:last-child{
+        display: none !important;
+    }
+    .footer-div{
+        padding: 7rem 0px !important;
+    }
+    .link-div{
+        justify-content: space-around;
+    }
+    .about-div{
+        margin-top: 20rem;
+    }
+    .video-div{
+        width: 90% !important;
+        top: 5% !important;
+        left: 6% !important;
+    }
+    .about-div{
+        padding-left: 2rem !important;
+    }
+    .about-text{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .teams-div{
+        display: none !important;
+    }
+    .services-banner-text{
+        display: none !important;
+    }
+    .service-maindiv-two{
+        flex-wrap: wrap;
+    }
+    .cardo{
+        top: 3% !important;
+    }
+    .cardtw{
+        top: 6% !important;
+    }
+    .cardth{
+        top: 9% !important;
+    }
+    .cardfo{
+        top: 12% !important;
+    }
+    .slider-main h2{
+        font-size: 14px !important;
+    }
+    .slider-main p{
+        font-size: 14px !important;
+    }
+    .contact-two-div{
+        display: none;
+    }
+    .contact-div{
+        width: 100% !important;
+    }
+    .contact-div p{
+        text-align: center !important;
+    }
+    .form-div p{
+        margin-right: 1.5rem;
+    }
+    .aboutus-second-main p{
+        font-family: "Anonymous Pro", serif;
+        font-size: 12px;
+        font-style: italic;
+    }
+}

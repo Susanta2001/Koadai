@@ -1,3 +1,40 @@
 body{
   background-color: black;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+.fill-btn-effect{
+  position: relative;
+}
+.fill-btn-effect:hover{
+  background-color: white;
+  color: black !important;
+  transition: 0.3s ease-in-out;
+}
+.fill-btn-effect:before{
+  content: "";
+  position: absolute;
+  background: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+.fill-btn-effect:hover:before{
+  top: 0;
+}
+.btn{
+  width: max-content;
+  margin: 0px auto;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  padding: 12px 42px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
 }

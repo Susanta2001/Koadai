@@ -1,0 +1,67 @@
+.form-input{
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 12px;
+}
+.form-input p{
+    color: white;
+    font-size:medium;  
+    font-family: "Anonymous Pro", serif;     
+}
+input{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 12px;
+    border-bottom: 2px solid white !important;
+    font-size: medium;
+    margin-bottom: 12px;
+}
+label{
+    font-family: "Anonymous Pro", serif;
+}
+.squarebox div{
+    background-color: black;
+}
+.squarebox-inner{
+    border:1px solid white;
+    width:25%;
+    height:100px;
+}
+.squarebox-inner div{
+    border:1px solid white;
+    width:100%;
+    height:100%;
+    transition: 0.3s ease-in-out;
+}
+.squarebox-inner div:hover{
+    background-color: white;
+    transform-origin: left;
+    /* animation: openWindow 2s ease-out forwards; */
+    position: relative;
+    /* top: 16px; */
+    transform:skewX(-20deg);
+    transform:skewY(18deg);
+
+}
+.window-r{
+    transform:skewX(-20deg);
+    transform:skewY(18deg);
+    position: relative;
+    top: 16px;
+  
+}
+@keyframes openWindow {
+    from {
+        transform: skewX(-90deg);
+    }
+    to {
+        transform: skewX(20deg);
+    }
+}
+.window-l{
+    transform:skewX(20deg);
+    transform:skewY(-18deg);
+    position: relative;
+    top: 16px;
+}
+

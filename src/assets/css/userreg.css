@@ -13,3 +13,7 @@
     background-color: black;
     color: white;
 }
+.userreg-main{
+    background: linear-gradient(180deg, #000000 0%, #011111 100%);
+    padding:4rem 0px;
+}

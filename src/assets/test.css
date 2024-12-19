@@ -1,0 +1,30 @@
+.modal input, textarea{
+    border-bottom: 1px solid black !important;
+    color: #000;
+    font-size: 18px;
+    font-family: "Annonymous Pro", serif;
+    margin-left: 0% !important;
+    margin-bottom: 2% !important;
+}
+
+.modal-body form{
+    width: 100%;
+}
+.modal-footer button:first-of-type{
+    border: 1px solid black;
+    color: black !important;
+     &:hover{
+        background-color: red;
+        color: white !important;
+        border: 1px solid red;
+     }
+}
+.modal-footer button:last-of-type{
+    border: 1px solid black;
+    color: black !important;
+}
+.alert{
+    position: absolute;
+    left: 25%;
+    bottom: -2.7%;
+}

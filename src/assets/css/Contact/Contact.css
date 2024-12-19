@@ -1,0 +1,38 @@
+.form-div, .map-div{
+        height: auto;
+        
+}
+.form-div{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 60%;
+}
+form input, textarea{
+    color: white;
+}
+.map-div{
+    width: 35%;
+}
+.contact-col input, textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 24px;
+}
+.form-div textarea{
+    margin-top: 24px;
+    border: none !important;
+    width: 60%;
+    border-bottom: 1px solid white !important;
+}
+.contact-col input:focus{
+    border: none;
+}
+.form-div button{
+    color: white;
+    border: 1px solid white !important;
+}

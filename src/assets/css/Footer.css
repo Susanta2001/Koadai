@@ -1,0 +1,12 @@
+.footer-div{
+   height: auto;
+   padding: 7rem;
+}
+.footer-card{
+    gap: 24px;
+}
+.footer-card a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
