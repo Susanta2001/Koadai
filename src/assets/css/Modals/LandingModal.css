@@ -3,8 +3,8 @@
     font-family: "Anonymous Pro", serif;
 }
 .modal-content{
-    background-color: #3f7d7b !important;
-    color: white;
+    background-color: white !important;
+    color: black;
 }
 .modal-content button{
     border: 1px solid white !important;
@@ -14,4 +14,7 @@
         background-color: #3f7d7b !important;
         color: black !important;
     }
+}
+.modal-footer button{
+    border: 1px solid black !important;
 }

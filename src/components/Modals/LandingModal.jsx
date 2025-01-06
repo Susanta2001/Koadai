@@ -17,13 +17,14 @@ function LandingModal({ onClose }) {
             ></button>
           </div>
           <div className="modal-body">
-            <p>Get your first time offer by signing in with us for only INR 6,999 starting for digital marketing. Hurry up ! Limited seats available only</p>
+            <p>Get your first time offer by signing in with us for only INR 7,999 starting for digital marketing. Hurry up ! Limited seats available only</p>
+            
           </div>
           <div className="modal-footer">
-            <button
+            <button 
               onClick={onClose}
               type="button"
-              className="btn btn-secondary"
+              className="btn btn-secondary "
             >
               Close
             </button>

@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import BannerTwo from './components/Home/BannerTwo'
 
 import ReactPixel from "react-facebook-pixel";
+import NewYearPage from "./components/Modals/NewYearPage";
 
 function App() {
   // Initialize Pixel
@@ -70,6 +71,7 @@ function App() {
   ]);
   return (
     <>
+    <NewYearPage/>
       <RouterProvider router={router} />
     </>
   );
