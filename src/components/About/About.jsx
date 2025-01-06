@@ -24,21 +24,21 @@ function About() {
       <div className="about-div p-4 d-flex justify-content-center align-items-center flex-column position-relative">
         <div className="light-div"></div>
         <div className="about-text text-center mt-5 w-75 d-flex flex-column">
-          <h1>Who is Koadai?</h1>
+          <h1>What is Koadai?</h1>
           <p>
-            Welcome to Koadai – Your Partner in Digital
-            Transformation!
+            Welcome to Koadai – Your future awaits you
           </p>
           <p>
-            At Koadai we ignite sigital revolutions with fresh ideas, dynamic code, and unstoppable passion - redifing online success with expertly crafted website solutions. From building brands from sractch to bringing stories to life, we blend imagination and innovation to help all size of businesses thrive in the digital age.
+            We are a young group of active thinkers who are passionate to revolutionize business through innovative digital solutions. From branding concepts to propelling them into high skies, fresh perspectives and the creative energy redefine how companies connect and thrive online.
           </p>
-          <h4>Our Purpose</h4>
+          <p>Wether it's developing dynamic websites, creating appealing branding, or optimizing digital marketing strategies, we inject passion, expertise and a human touch into everything we undertake.</p>
+          <h4>Our Prommise</h4>
           <p>
-            To bridge the gap between business and their digital transformation needs. Koadai envisiosns a world where business of all sizes can build impactful digital brnads, thrive in the digital marketplace, and achieve ongoing revenue success.
+            As your trusted digital partner, we are committed to bringing smart, personalized solutions customized to your unique challenges so that we can empower your business. Together let's lay a solid foundation for current needs and build pathways to a success and growth future.
           </p>
-          <h4>Our Mission</h4>
+          <h4>Our Dream</h4>
           <p>
-            At Koadai, we believe every business deserves to create its own unique brand and succeed in the digital landscape. Koadai combines the essence of code and artificial intelligence, reflecting the brand's core focus. 
+            We dream of a world where business thrive effortlessly in the digital age, creative and innovation converge to create long-term success, and with strategies designed to inspire and solutions crafted with heart, we are committed to helping brands thrive and leave a meaningful mark in this ever-evolving landscape. 
           </p>
           <button className="btn fill-btn-effect">Request a call from us</button>
         </div>

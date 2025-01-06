@@ -21,7 +21,7 @@ const NewYearPage = () => {
           height={height}
           numberOfPieces={300}
           gravity={0.2}
-          colors={["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"]}
+          colors={["#fffff", "#0000", "#0000ff", "#ffff00", "#ff00ff"]}
         />
       )}
     </div>
