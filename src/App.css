@@ -1,6 +1,6 @@
 body{
   background-color: black;
-  font-family: "Anton", sans-serif;
+  font-family: "Ubuntu", serif;
   letter-spacing: 2px;
   color: white;
 }
@@ -37,4 +37,30 @@ body{
   border: 1px solid white;
   background-color: transparent;
   color: white;
+}
+/* this is for text loading animation */
+.header-animation{
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: all 1s ease;
+}
+.header-animation.animate{
+  opacity: 1;
+  transform: translateY(0);
+}
+.text-animate{
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: all 1s ease;
+}
+.text-animate.animate{
+  opacity: 1;
+  transform: translateY(0);
+}
+.active{
+  color: #2448E6 !important;
+  font-family: "Anonymous Pro", monospace !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    text-decoration: none;
 }

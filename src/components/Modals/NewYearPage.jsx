@@ -14,7 +14,7 @@ const NewYearPage = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center", position:'absolute', zIndex:'10000' }}>
       {showConfetti && (
         <Confetti
           width={width}

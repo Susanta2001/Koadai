@@ -1,63 +1,54 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../assets/css/About/Teams.css";
-import aboutBannerImg from "../../assets/images/about-team-bg.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 // Import team images
 import teamOne from '../../assets/images/ceo.jpg';
 import teamTwo from "../../assets/images/brand-strategist.jpg";
 import teamThree from "../../assets/images/cto.jpg";
 import teamFour from "../../assets/images/cd.jpg";
 import teamFive from "../../assets/images/bdm.jpg";
-// import teamSix from "../../assets/images/officer.jpg";
+import teamSix from "../../assets/images/officer.jpg";
+import teamSeven from "../../assets/images/web-intern.jpeg";
 
 function Teams() {
-  const teamMembers = [
-    { name: "Vivek Pradhan", role: "Marketing Manager", image: teamOne },
-    { name: "Amit Chettri", role: "Brand Strategist", image: teamTwo },
-    { name: "Susanta Biswas", role: "Lead Web Developer", image: teamThree },
-    { name: "Roushan Dubey", role: "Lead UI/UX Designer", image: teamFour },
-    { name: "Supriya Rai", role: "Business Development Manager", image: teamFive },
-  ];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const visibleCards = 3; // Number of cards to display at a time
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex + visibleCards < teamMembers.length
-        ? prevIndex + 1
-        : 0
-    );
+  const settings = {
+    dots: true, // Shows navigation dots
+    infinite: true, // Infinite looping
+    speed: 500, // Transition speed in ms
+    slidesToShow: 3, // Number of slides to show at once
+    slidesToScroll: 1, // Number of slides to scroll at once
+    arrows: true, // Enables next/prev arrows
   };
-
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex > 0 ? prevIndex - 1 : teamMembers.length - visibleCards
-    );
-  };
+  
 
   return (
-    <div
-      className="teams-div d-flex align-items-center"
-      style={{ backgroundImage: `url(${aboutBannerImg})` }}
-    >
-      <div className="team-cards-container">
-        <button className="slider-button prev" onClick={handlePrev}>
-          {"<"}
-        </button>
-        <div className="team-cards">
-          {teamMembers.slice(currentIndex, currentIndex + visibleCards).map((member, index) => (
-            <div key={index} className="team-card">
-              <img src={member.image} alt={`${member.name}`} className="team-img" />
-              <h3 className="team-name">{member.name}</h3>
-              <p className="team-role">{member.role}</p>
-            </div>
-          ))}
+    <div className="slider-container container">
+      <h2>Our Team</h2>
+      <Slider {...settings}>
+        <div>
+          <img src={teamOne} alt="Team 1" />
         </div>
-        <button className="slider-button next" onClick={handleNext}>
-          {">"}
-        </button>
-      </div>
+        <div>
+          <img src={teamTwo} alt="Team 2" />
+        </div>
+        <div>
+          <img src={teamThree} alt="Team 3" />
+        </div>
+        <div>
+          <img src={teamFour} alt="Team 4" />
+        </div>
+        <div>
+          <img src={teamFive} alt="Team 5" />
+        </div>
+        <div>
+          <img src={teamSix} alt="Team 6" />
+        </div>
+        <div>
+          <img src={teamSeven} alt="Team 7" />
+        </div>
+      </Slider>
     </div>
   );
 }

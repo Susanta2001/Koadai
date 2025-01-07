@@ -10,7 +10,7 @@ function AboutSection() {
         </div>
         <hr></hr>
         <div className='aboutus-second-main d-flex flex-column justify-content-center'>
-          <h2 className='d-flex justify-content-center'>WHO ARE WE?</h2>
+          <h2 className='d-flex justify-content-center '>WHO ARE WE?</h2>
           <p className='d-flex justify-content-center' style={{ width: '80%', paddingLeft: '18%' }}>We're passionate about revolutionizing businesses with
             innovative digital solutions that inspire growth and
             engagement. With our creative flair and fresh perspectives,

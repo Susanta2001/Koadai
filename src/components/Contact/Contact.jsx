@@ -1,19 +1,14 @@
-import React, { useRef, useState, useEffect } from 'react'
+import React, { useRef, useState,} from 'react'
 import emailjs from '@emailjs/browser';
 import '../../assets/css/Contact/Contact.css'
 import ContactTwo from './ContactTwo';
 import Alert from '../Alert'
-import ReactPixel from 'react-facebook-pixel';
 
 function Contact() {
   const form = useRef();
   const [showAlert, setShowAlert] = useState(false);
 
-  useEffect(() => {
-    // Track Contact Page View
-    ReactPixel.pageView();
-    ReactPixel.track('ViewContent', { page: 'Contact Page' }); // Optional custom event
-  }, []);
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,9 +22,7 @@ function Contact() {
           console.log('SUCCESS!');
           setShowAlert(true); // Show the alert on success
           setTimeout(() => setShowAlert(false), 3000);
-          ReactPixel.track('Lead', {
-            form_name: 'Contact Form',
-          });
+         
         },
         (error) => {
           console.log('FAILED...', error.text);

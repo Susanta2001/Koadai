@@ -7,16 +7,10 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Services from "./components/services/ServicePage";
 import Contact from "./components/Contact/Contact";
-import BannerTwo from './components/Home/BannerTwo'
-
-import ReactPixel from "react-facebook-pixel";
 import NewYearPage from "./components/Modals/NewYearPage";
+import Teams from "./components/About/Teams";
 
 function App() {
-  // Initialize Pixel
-  ReactPixel.init("1260795788545370"); // Replace with your Pixel ID
-  ReactPixel.pageView(); // Track the initial page view
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -62,9 +56,7 @@ function App() {
       path: "/test-page",
       element: (
         <>
-          <Navbar/>
-          <BannerTwo/>
-          <Footer/>
+          <Teams/>
         </>
       )
     }

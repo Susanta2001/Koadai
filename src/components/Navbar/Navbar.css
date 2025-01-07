@@ -11,8 +11,8 @@
     color: white;
 
     &:hover{
-        text-decoration: underline;
-        color:blue;
+        text-decoration: none;
+        color:white;
     }
 }
 .nav-bar{

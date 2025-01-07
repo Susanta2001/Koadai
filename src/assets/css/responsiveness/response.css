@@ -125,4 +125,13 @@
         font-size: 12px;
         font-style: italic;
     }
+    .gallery-div{
+        display: none !important;
+      }
+      .branding-second-div{
+        display: none !important;
+      }
+      .userreg-main{
+        display: none !important;
+      }
 }

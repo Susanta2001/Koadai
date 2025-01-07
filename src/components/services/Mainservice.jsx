@@ -27,34 +27,37 @@ function Mainservice() {
         </div>
         <div className="service-maindiv-two d-flex justify-content-center mb-5">
           <div className="flip-card" tabIndex={0}>
-            <div className="flip-card-inner">
+          <img src={Imgone} alt="/" style={{ width: "100%" }}></img>
+            {/* <div className="flip-card-inner">
               <div className="flip-card-front">
                 <h3>Hover me</h3>
               </div>
               <div className="flip-card-back">
               <img src={Imgone} alt="/" style={{ width: "100%" }}></img>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="flip-card" tabIndex={0}>
-            <div className="flip-card-inner">
+            {/* <div className="flip-card-inner">
               <div className="flip-card-front">
                 <h3>Hover me</h3>
               </div>
               <div className="flip-card-back">
               <img src={Imgtwo} alt="/" style={{ width: "100%" }}></img>
               </div>
-            </div>
+            </div> */}
+            <img src={Imgtwo} alt="/" style={{ width: "100%" }}></img>
           </div>
           <div className="flip-card" tabIndex={0}>
-            <div className="flip-card-inner">
+            {/* <div className="flip-card-inner">
               <div className="flip-card-front">
                 <h3>Hover me</h3>
               </div>
               <div className="flip-card-back">
               <img src={Imgthree} alt="/" style={{ width: "100%" }}></img>
               </div>
-            </div>
+            </div> */}
+            <img src={Imgthree} alt="/" style={{ width: "100%" }}></img>
           </div>
         </div>
         <div className="service-maindiv-three d-flex justify-content-center" style={{ width: "100%" }}>

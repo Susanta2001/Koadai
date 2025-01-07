@@ -11,7 +11,7 @@ function Testimonial() {
       <div className="testimonial-main text-light p-4">
         {/* first div */}
         <div className="testimonial-inner-one my-4">
-          <h1 className="text-center">Portfolio</h1>
+          <h1 className="text-center" style={{marginBottom:'7rem'}}>Portfolio</h1>
           {/* <p className="text-center">Our Clients Qoute</p> */}
         </div>
         {/* second div */}

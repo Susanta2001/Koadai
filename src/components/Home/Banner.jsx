@@ -7,6 +7,7 @@ import koadaiLogo from "../../assets/images/koadai-logo.png";
 
 function Banner() {
   useEffect(() => {
+    // eslint-disable-next-line
     let lastScrollY = 0; // To keep track of the last scroll position
     const koadaiLogo = document.getElementById("koadai-logo");
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import '../../assets/css/Footer.css'
 import koadaiLogo from '../../assets/images/koadai-logo.png'
 
@@ -14,10 +15,10 @@ function Footer() {
                 Koadai is your first choice of making something awesome for your company. Get your K-ticket and make the best brand in your region.
             </div>
             <div className="footer-card w-25 h-100 justify-content-center d-flex flex-column">
-                <a href="/">Home</a>
-                <a href="/">About</a>
-                <a href="/">Services</a>
-                <a href="/">Contact Us</a>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/services">Services</NavLink>
+                <NavLink to="/contact">Contact Us</NavLink>
             </div>
             <div className="footer-card w-25 h-100 d-flex flex-column">
                 <a href="/">Privacy Policies</a>
